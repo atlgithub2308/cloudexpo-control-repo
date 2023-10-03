@@ -3,7 +3,7 @@ cem_linux::config:
   profile: 'server'
   level: '1'
   only:
-    - 'c5_6_1_1'
+    - 'c5_5_1_1'
     - 'c1_3_1'
   control_configs:
     c5_6_1_1:
