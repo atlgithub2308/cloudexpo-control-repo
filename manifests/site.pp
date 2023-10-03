@@ -35,7 +35,7 @@ node pecloudexpo.atldemo.net {
 
 }
 
-node pecloudexpo.atldemo.net {
+node agent1cloudexpo.atldemo.net {
 
   include cem_linux
 
