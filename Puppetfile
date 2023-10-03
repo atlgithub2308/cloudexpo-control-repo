@@ -1,6 +1,6 @@
 forge 'https://forge.puppet.com'
 
-#mod 'puppetlabs-cem_linux', '1.5.1'
+mod 'puppetlabs-cem_linux', '1.7.1'
 #  :git => 'git@github.com:puppetlabs/puppetlabs-cem_linux.git',
 #  :ref => 'main'
 #mod 'puppetlabs-cem_windows', '1.3.0'
