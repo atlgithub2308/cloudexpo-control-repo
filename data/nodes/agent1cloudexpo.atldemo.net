@@ -6,5 +6,5 @@ cem_linux::config:
     - 'c5_5_1_1'
     - 'c1_3_1'
   control_configs:
-    c5_6_1_1:
+    c5_5_1_1:
       pass_max_days: 365
