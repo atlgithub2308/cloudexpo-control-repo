@@ -30,6 +30,13 @@ node default {
   #   class { 'my_class': }
 }
 
+
 node pecloudexpo.atldemo.net {
+
+}
+
+node pecloudexpo.atldemo.net {
+
+  include cem_linux
 
 }
