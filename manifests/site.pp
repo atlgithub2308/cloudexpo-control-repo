@@ -26,15 +26,9 @@ File { backup => false }
 # For more on node definitions, see: https://puppet.com/docs/puppet/latest/lang_node_definitions.html
 node default {
 
-  class { 'cem_linux': }
-
 }
 
-
-node pecloudexpo.atldemo.net {
-
+node /^agent[\w._%+-]+/ {
+  include cem_linux
 }
 
-node agent1cloudexpo.atldemo.net {
-
-}
