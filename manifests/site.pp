@@ -25,9 +25,9 @@ File { backup => false }
 #
 # For more on node definitions, see: https://puppet.com/docs/puppet/latest/lang_node_definitions.html
 node default {
-  # This is where you can declare classes for all nodes.
-  # Example:
-  #   class { 'my_class': }
+
+  include cem_linux
+
 }
 
 
@@ -36,7 +36,5 @@ node pecloudexpo.atldemo.net {
 }
 
 node agent1cloudexpo.atldemo.net {
-
-  include cem_linux
 
 }
