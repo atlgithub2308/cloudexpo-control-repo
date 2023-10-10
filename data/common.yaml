@@ -7,10 +7,16 @@ pe_r10k::forge_settings:
 puppet_enterprise::master::code_manager::forge_settings:
   authorization_token: 'Bearer f51d42e43ee626426e7a20440db78127b1a508d8ff8749bbaf800397de7b4708'
 
-cem_linux::benchmark: 'cis'
+#cem_linux::benchmark: 'cis'
 cem_linux::config:
   profile: 'server'
   level: '1'
-  control_configs:
-    c5_5_1_1:
-      pass_max_days: 365
+  ignore:
+    - 'ensure_rsync_is_not_installed_or_the_rsyncd_service_is_masked'
+    - 'ensure_message_of_the_day_is_configured_properly'
+    - 'ensure_permissions_on_etcmotd_are_configured'
+    - 'ensure_permissions_on_etcsshsshd_config_are_configured'
+    - 'ensure_iptables_packages_are_installed'
+    - 'ensure_firewalld_is_installed'
+    - 'ensure_firewalld_service_is_enabled_and_running'
+    - 'ensure_time_synchronization_is_in_use'
