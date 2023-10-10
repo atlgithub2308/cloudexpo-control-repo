@@ -7,7 +7,7 @@ pe_r10k::forge_settings:
 puppet_enterprise::master::code_manager::forge_settings:
   authorization_token: 'Bearer f51d42e43ee626426e7a20440db78127b1a508d8ff8749bbaf800397de7b4708'
 
-cem_linux::benchmark: 'cis'
+#Declare this in Console Node Group so that PE Server is excluded cem_linux::benchmark: 'cis'
 cem_linux::config:
   profile: 'server'
   level: '1'
