@@ -33,5 +33,9 @@ node /^agent[\w._%+-]+/ {
   user { 'cdsluser1': 
    ensure           => 'present',
   }
+
+  package { 'httpd':
+    ensure => installed,
+  }
 }
 
