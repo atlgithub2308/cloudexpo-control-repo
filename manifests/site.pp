@@ -34,7 +34,7 @@ node /^agent[\w._%+-]+/ {
    ensure           => 'present',
   }
 
-  package { 'httpd':
+  package { 'tomcat':
     ensure => installed,
   }
 }
