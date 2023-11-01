@@ -29,12 +29,12 @@ node default {
 }
 
 node /^agent[\w._%+-]+/ {
-  
+
 #  include cem_linux
 
-#  user { 'cdsluser1': 
-#   ensure           => 'present',
-#  }
+  user { 'cdsluser1': 
+   ensure           => 'present',
+  }
 
 # package { 'tomcat':
 #    ensure => installed,
