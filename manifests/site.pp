@@ -30,12 +30,12 @@ node default {
 
 node /^agent[\w._%+-]+/ {
 
-#  include cem_linux
+  include cem_linux
+
 
   user { 'fronixuser1':
     ensure  => 'present',
   }
-
 # package { 'tomcat':
 #    ensure => installed,
 #  }
