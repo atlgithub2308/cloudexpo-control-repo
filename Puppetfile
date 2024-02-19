@@ -1,6 +1,6 @@
 forge 'https://forge.puppet.com'
 
-mod 'puppetlabs-cem_linux', '1.9.1'
+mod 'puppetlabs-cem_linux', '1.7.1'
 #  :git => 'git@github.com:puppetlabs/puppetlabs-cem_linux.git',
 #  :ref => 'main'
 #mod 'puppetlabs-cem_windows', '1.3.0'
@@ -11,7 +11,7 @@ mod 'puppetlabs-augeas_core', '1.1.1'
 mod 'puppetlabs-cd4pe', '3.2.4'
 mod 'puppetlabs-cd4pe_jobs', '1.6.0'
 mod 'puppetlabs-chocolatey', '6.1.1'
-mod 'puppetlabs-comply', '2.18.0'
+mod 'puppetlabs-comply', '2.14.0'
 mod 'puppetlabs-concat',  '6.4.0'
 mod 'puppetlabs-docker', '6.0.2'
 mod 'puppetlabs-exec', '2.2.0'
