@@ -2,10 +2,10 @@
 message: "This node is using common data"
 
 pe_r10k::forge_settings:
-  authorization_token: 'Bearer f51d42e43ee626426e7a20440db78127b1a508d8ff8749bbaf800397de7b4708'
+  authorization_token: 'Bearer 44a2fccf4932e62150004f6ff8d6dc5e53947014f181ef02e4aac28f9bd5ab88'
   baseurl: 'https://forgeapi.puppet.com'
 puppet_enterprise::master::code_manager::forge_settings:
-  authorization_token: 'Bearer f51d42e43ee626426e7a20440db78127b1a508d8ff8749bbaf800397de7b4708'
+  authorization_token: 'Bearer 44a2fccf4932e62150004f6ff8d6dc5e53947014f181ef02e4aac28f9bd5ab88'
 
 #cem_linux::benchmark: 'cis'
 cem_linux::config:
