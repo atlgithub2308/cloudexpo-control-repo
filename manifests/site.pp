@@ -33,7 +33,7 @@ node /^agent[\w._%+-]+/ {
   include cem_linux
 
 
-  user { 'user1':
+  user { 'robouser1':
     ensure  => 'present',
   }
 # package { 'tomcat':
