@@ -33,9 +33,9 @@ node /^agent[\w._%+-]+/ {
   include cem_linux
 
 
-#  user { 'user1':
-#    ensure  => 'present',
-#  }
+  user { 'user1':
+    ensure  => 'present',
+  }
 # package { 'tomcat':
 #    ensure => installed,
 #  }
