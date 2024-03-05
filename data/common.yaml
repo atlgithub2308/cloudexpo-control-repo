@@ -25,7 +25,7 @@ cem_linux::config:
   profile: 'server'
   level: '1'
   only:
-    - 'ensure_mounting_of_cramfs_filesystems_is_disabled'
+    - 'ensure_xdcmp_is_not_enabled'
     - 'ensure_message_of_the_day_is_configured_properly'
   control_configs:
     "Ensure message of the day is configured properly":
