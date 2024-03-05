@@ -26,3 +26,7 @@ cem_linux::config:
   level: '1'
   only:
     - 'ensure_mounting_of_cramfs_filesystems_is_disabled'
+    - 'ensure_message_of_the_day_is_configured_properly'
+  control_configs:
+    "Ensure message of the day is configured properly":
+      motd_content: "This is Sime Darby Secure system"
