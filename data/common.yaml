@@ -29,4 +29,4 @@ cem_linux::config:
     - 'ensure_message_of_the_day_is_configured_properly'
   control_configs:
     "Ensure message of the day is configured properly":
-      motd_content: "This is Sime Darby Secure system"
+      motd_content: "This is a Secure system"
